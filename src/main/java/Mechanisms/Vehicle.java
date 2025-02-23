@@ -1,3 +1,5 @@
+package Mechanisms;
+
 abstract public class Vehicle {
     private String name;
 public Vehicle(String name){

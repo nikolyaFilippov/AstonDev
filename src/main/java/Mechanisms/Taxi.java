@@ -1,22 +1,19 @@
-public class Truck extends Vehicle implements CarriesCargo,Wheels {
+package Mechanisms;
+
+public class Taxi extends Vehicle implements Wheels {
     private String color;
 
 
-    public Truck(String name, String color){
+    public Taxi(String name, String color){
         super(name);
         this.color = color;
     }
 
     @Override
-    public void carriesCargo(){
-        System.out.println("Вожу грузы");
-    }
-    @Override
     public void wheelsVehicle(){
         System.out.println("Есть колеса");
     }
     public void whoAmI(){
-        carriesCargo();
         wheelsVehicle();
         System.out.println("Я "+ color+" "+getName()+" Грузовик");
     }

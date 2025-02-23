@@ -1,8 +1,10 @@
-public class Tanker extends Vehicle implements CarriesCargo,Propeller{
+package Mechanisms;
+
+public class Boat extends Vehicle implements CarriesCargo, Propeller {
     private String color;
 
 
-    public Tanker(String name, String color){
+    public Boat(String name, String color){
         super(name);
         this.color = color;
     }
@@ -19,6 +21,6 @@ public class Tanker extends Vehicle implements CarriesCargo,Propeller{
     public void whoAmI(){
         carriesCargo();
         propeller();
-        System.out.println("Я "+ color+" "+getName()+" Танкер");
+        System.out.println("Я "+ color+" "+getName()+" Катер");
     }
 }

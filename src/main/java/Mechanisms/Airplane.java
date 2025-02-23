@@ -1,4 +1,6 @@
-public class Airplane extends Vehicle implements CarriesCargo,Propeller,Wheels,Wings {
+package Mechanisms;
+
+public class Airplane extends Vehicle implements CarriesCargo, Propeller, Wheels, Wings {
     private String color;
 
 

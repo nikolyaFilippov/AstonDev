@@ -1,4 +1,6 @@
-public class Helicopter extends Vehicle implements CarriesCargo,Propeller,Wheels{
+package Mechanisms;
+
+public class Helicopter extends Vehicle implements CarriesCargo, Propeller, Wheels {
     private String color;
 
 
